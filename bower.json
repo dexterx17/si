@@ -1,0 +1,17 @@
+{
+  "name": "SeguridadInformatica",
+  "description": "Clases de SI",
+  "main": "index.js",
+  "authors": [
+    "Jaime Santana"
+  ],
+  "license": "BSD-2-Clause",
+  "keywords": [
+    "SI"
+  ],
+  "homepage": "https://github.com/dexterx17/si",
+  "private": true,
+  "dependencies": {
+    "jquery": "^2.2.3"
+  }
+}
