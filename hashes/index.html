@@ -11,6 +11,17 @@
 	<!-- jshashes -->
 	<script type="text/javascript" src="../bower_components/jshashes/hashes.min.js"></script>
 
+	<!-- crypto-js -->
+	<script type="text/javascript" src="../bower_components/crypto-js/core.js"></script>
+	<script type="text/javascript" src="../bower_components/crypto-js/x64-core.js"></script>
+	<script type="text/javascript" src="../bower_components/crypto-js/lib-typedarrays.js"></script>
+	<script type="text/javascript" src="../bower_components/crypto-js/crypto-js.js"></script>
+
+	<script type="text/javascript" src="../bower_components/crypto-js/md5.js"></script>
+	<script type="text/javascript" src="../bower_components/crypto-js/sha1.js"></script>
+	<script type="text/javascript" src="../bower_components/crypto-js/sha256.js"></script>
+	<script type="text/javascript" src="../bower_components/crypto-js/sha512.js"></script>
+	<script type="text/javascript" src="../bower_components/crypto-js/ripemd160.js"></script>
 
 	<script type="text/javascript" src="app.js"></script>
 	<!-- ESTILOS -->
@@ -43,16 +54,23 @@
 				<table class="table table-hover table-bordered table-responsive">
 					<thead>
 						<tr>
-							<th>Libreria</th>
-							<th>Algoritmos soportados</th>
-							<th>Texto convertido</th>
+							<th width="15%">Libreria</th>
+							<th width="35%">Algoritmos soportados</th>
+							<th width="50%">Texto convertido</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
 							<td><a href="https://www.npmjs.com/package/jshashes" "jshashes">jshashes</a></td>
 							<td>MD5, SHA1, SHA256, SHA512, RIPEMD, HMAC and Base64</td>
-							<td><textarea class="form-control" name="jshashes" readonly="true" cols="30" rows="2"></textarea></td>
+							<td><textarea class="form-control" name="jshashes" readonly="true" cols="30" rows="3"></textarea></td>
+						</tr>
+						<tr>
+							<td><a href="https://github.com/brix/crypto-js" "crypto-js">crypto-js</a></td>
+							<td>
+								md5, sha1, sha256, sha224, sha512, sha384, sha3, ripemd160, hmac-md5, hmac-sha1, hmac-sha256, hmac-sha224, hmac-sha512, hmac-sha384, hmac-sha3, hmac-ripemd160 , pbkdf2, aes, tripledes, rc4, rabbit, rabbit-legacy, evpkdf, format-openssl, format-hex , enc-latin1, enc-utf8, enc-hex, enc-utf16, enc-base64 , mode-cfb, mode-ctr, mode-ctr-gladman, mode-ofb, mode-ecb , pad-pkcs7, pad-ansix923, pad-iso10126, pad-iso97971, pad-zeropadding, pad-nopadding
+							</td>
+							<td><textarea class="form-control" name="crypto-js" readonly="true" cols="30" rows="3"></textarea></td>
 						</tr>
 					</tbody>
 				</table>

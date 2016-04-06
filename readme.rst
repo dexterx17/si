@@ -1,5 +1,5 @@
 ###################
-Seguridad Informatica Marzo 2016 / Septiembre 2016
+Seguridad Informatica Marzo / Septiembre 2016
 ###################
 
 
@@ -17,11 +17,12 @@ Una vez descargado el repo, asegurarse de instalar todos los requerimientos.
 *******************
 Requerimientos
 *******************
-	npm
-	bower
+	* Node.js
+	* npm
+	* bower
 
 Una vez instalado los requerimientos ejecutar desde consola:
-	npm update   (Instala los plugins definidos en package.json)
-	bower install (Instala los plugins definidos en bower.json)
+	* npm update   (Instala los plugins definidos en package.json)
+	* bower install (Instala los plugins definidos en bower.json)
 
 
