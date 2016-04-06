@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HASHES (Librerias javascript) </title>
+	<meta name="author" content="Jaime Santana">
+	<meta name="keywords" content="Seguridad Informatica, Hashes">
+	<!-- JAVASCRIPTS -->
+	<script type="text/javascript" src="../bower_components/jquery/dist/jquery.js"></script>
+	<script type="text/javascript" src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+	<!-- jshashes -->
+	<script type="text/javascript" src="../bower_components/jshashes/hashes.min.js"></script>
+
+
+	<script type="text/javascript" src="app.js"></script>
+	<!-- ESTILOS -->
+	<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+	<style>
+		table tr th,
+		table tr td {
+			text-align:center;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h1>Librerias para <a href="https://en.wikipedia.org/wiki/Hash_function" target="_blanck">hashing</a></h1>
+			</div>
+			<div class="panel-body">
+				<div class="row">
+					<input type="text" id="entrada" class="form-control" placeholder="Ingrese texto para empezar a procesarlo..."></input>
+					<select class="form-control" name="algoritmos" id="algoritmo">
+						<option value="MD5">MD5</option>
+						<option value="SHA1">SHA1</option>
+						<option value="SHA256">SHA256</option>
+						<option value="SHA512">SHA512</option>
+						<option value="RMD160">RMD160</option>
+					</select>
+				</div>
+				<hr />
+				<table class="table table-hover table-bordered table-responsive">
+					<thead>
+						<tr>
+							<th>Libreria</th>
+							<th>Algoritmos soportados</th>
+							<th>Texto convertido</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><a href="https://www.npmjs.com/package/jshashes" "jshashes">jshashes</a></td>
+							<td>MD5, SHA1, SHA256, SHA512, RIPEMD, HMAC and Base64</td>
+							<td><textarea class="form-control" name="jshashes" readonly="true" cols="30" rows="2"></textarea></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

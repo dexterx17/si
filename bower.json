@@ -12,6 +12,8 @@
   "homepage": "https://github.com/dexterx17/si",
   "private": true,
   "dependencies": {
-    "jquery": "^2.2.3"
+    "jquery": "^2.2.3",
+    "jshashes": "^1.0.5",
+    "bootstrap": "^3.3.6"
   }
 }
